@@ -1,0 +1,17 @@
+.Explora{
+  font-size: 200%;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.Explora2{
+  color: rgb(230, 230, 230);
+}
+
+.Descriptcion{
+  margin-top: 50px;
+  color: white;
+  width: 100%;
+  line-height: 30px;
+  font-weight: bold;
+}

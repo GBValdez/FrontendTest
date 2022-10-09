@@ -1,0 +1,30 @@
+.List-Nav{
+    display: flex;
+    margin: 0;
+}   
+li{
+    list-style: none;
+    margin: 2px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-items: center;
+}
+
+.Icono_Book{
+    height: 40px;
+    width: 40px;
+    filter: invert(92%) sepia(99%) saturate(30%) hue-rotate(151deg) brightness(110%) contrast(100%);
+    margin: 5px;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+}
+.Logo h2{
+    color: white;
+}
