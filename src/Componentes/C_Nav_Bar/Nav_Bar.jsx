@@ -14,16 +14,16 @@ function Nav_Bar(){
                     </div>
                     <ol className="List-Nav">
                         <li>
-                            <Boton_Dir text="Home" tam="sm"/>
+                            <Boton_Dir text="Home" tam="sm" url="/Home"/>
                         </li>
                         <li>
-                            <Boton_Dir text="About" tam="sm"/>
+                            <Boton_Dir text="About" tam="sm" url="/About"/>
                         </li>
                         <li>
-                        <   Boton_Dir text="Service" tam="sm"/>
+                        <   Boton_Dir text="Service" tam="sm" url="/Service"/>
                         </li>
                         <li>
-                            <Boton_Dir text="Contact" tam="sm"/>
+                            <Boton_Dir text="Contact" tam="sm" url="/Contact"/>
                         </li>
                     </ol>
                 </nav>
