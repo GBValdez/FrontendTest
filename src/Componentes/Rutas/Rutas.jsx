@@ -11,7 +11,7 @@ const Rutas= ()=>{
     <Router>
         <Nav_Bar/>
         <Routes>
-            <Route exact path="/Home" element={<Home/>}/>
+            <Route exact path="/" element={<Home/>}/>
             <Route exact path="/About" element={<About/>}/>
             <Route exact path="/Service" element={<Service/>}/>
             <Route exact path="/Contact" element={<Home/>}/>

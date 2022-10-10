@@ -14,7 +14,7 @@ function Nav_Bar(){
                     </div>
                     <ol className="List-Nav">
                         <li>
-                            <Boton_Dir text="Home" tam="sm" url="/Home"/>
+                            <Boton_Dir text="Home" tam="sm" url="/"/>
                         </li>
                         <li>
                             <Boton_Dir text="About" tam="sm" url="/About"/>
