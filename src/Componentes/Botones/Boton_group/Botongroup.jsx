@@ -5,7 +5,7 @@ const Botones= (opciones)=>{
         {opciones.map( (num)=>{    
             return(
             <>  
-                <button key={num.toString()}  type="button" className="btn btn-primary">{num} </button>
+                <button key={num}  type="button" className="btn btn-primary">{num} </button>
             </>
         )
         })}

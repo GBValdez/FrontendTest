@@ -4,6 +4,7 @@ import Home from "../../Template/Home";
 import Nav_Bar from "../C_Nav_Bar/Nav_Bar";
 import About from "../../Template/About"
 import Service from "../../Template/Service";
+import Final from "../Agrupacion/Autor/ConsulAuthor";
 const Rutas= ()=>{
     return(
     <div>
@@ -14,7 +15,7 @@ const Rutas= ()=>{
             <Route exact path="/About" element={<About/>}/>
             <Route exact path="/Service" element={<Service/>}/>
             <Route exact path="/Contact" element={<Home/>}/>
-
+            <Route exact path="/Author/:id/:name" element={<Final/>} />
         </Routes>
     </Router>
     </div>
